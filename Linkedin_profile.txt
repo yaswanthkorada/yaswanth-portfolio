@@ -1,0 +1,109 @@
+Background Image
+
+Yaswanth Korada
+
+Yaswanth has a {:badgeType} account
+
+Yaswanth Korada 
+AI Engineer @Kroll | Enterprise GenAI, Agentic AI & Advanced RAG | LLMOps, Multi-Agent Systems | Python, FastAPI, Azure AI, AWS
+
+Kroll
+Hyderabad, Telangana, India  Contact info
+14,354 followers 
+500+ connections
+Open to
+
+Add profile section
+
+View my portfolio
+
+Resources
+Open to work
+AI Engineer, AI Software Engineer, Generative AI Engineer, Artificial Intelligence Engineer and Machine Learning Engineer roles
+
+Show details
+
+Edit
+AnalyticsAnalytics
+ Private to you Private to you
+
+1,194 profile views
+1,194 profile views
+Discover who's viewed your profile.Discover who's viewed your profile.
+7,398 post impressions
+7,398 post impressions
+Check out who's engaging with your posts.Check out who's engaging with your posts.
+Past 7 daysPast 7 days
+128 search appearances
+128 search appearances
+See how often you appear in search results.See how often you appear in search results.
+Show all analytics
+AboutAbout
+AI Engineer at Kroll, building production-grade Generative AI, Agentic AI, and Retrieval-Augmented Generation (RAG) systems for real enterprise use cases - not prototypes.
+
+I work at the intersection of GenAI, data engineering, and software engineering, designing and deploying scalable, secure, and reliable AI systems embedded directly into business workflows.
+
+My experience spans end-to-end AI development, including data ingestion, retrieval design, multi-agent orchestration, evaluation, and cloud-native deployment. I specialize in Agentic RAG systems for intelligent search, decision support, and workflow automation across large volumes of structured and unstructured data.
+
+I place strong emphasis on retrieval quality, evaluation, and reliability, using metrics such as relevance, accuracy, MRR, hit rate, and groundedness to ensure production readiness and reduce hallucinations.
+
+My work is primarily within the Azure ecosystem, leveraging Python, FastAPI, PySpark, Databricks, and modern GenAI frameworks to deliver AI solutions that are observable, secure, and cost-efficient.
+
+What I do best:
+• Enterprise GenAI & Agentic RAG architectures
+• Multi-agent systems & retrieval optimization
+• Production-grade AI APIs & cloud deployment
+• AI evaluation, reliability & performance tuning
+
+Always open to discussions on enterprise GenAI, Agentic RAG, and real-world AI systems.
+
+ExperienceExperience
+
+Kroll logo
+AI Engineer
+AI Engineer
+Kroll · Full-timeKroll · Full-time
+Dec 2023 - Present · 2 yrs 4 mosDec 2023 to Present · 2 yrs 4 mos
+Hyderabad · On-siteHyderabad · On-site
+AI Software Engineer focused on building production-grade Generative AI, Agentic AI, and Retrieval-Augmented Generation (RAG) systems that deliver measurable business impact across enterprise workflows.
+
+Key Contributions
+
+• Architected and deployed enterprise Agentic RAG platforms enabling intelligent search, incident resolution, and decision support over large-scale structured and unstructured data
+
+• Designed and implemented end-to-end RAG pipelines (ingestion → chunking → embeddings → hybrid retrieval → re-ranking → inference), significantly improving retrieval relevance and reducing hallucinations
+
+• Built multi-agent systems orchestrating retrieval, reasoning, validation, and recommendation workflows to support complex, high-stakes enterprise use cases
+
+• Developed secure, scalable AI backend services using Python and FastAPI, implementing OAuth2/JWT, RBAC, and enterprise SSO for high-compliance environments
+
+• Established AI evaluation and reliability frameworks, leveraging metrics such as relevance, accuracy, MRR, hit rate, and groundedness to ensure production readiness
+
+• Integrated OCR and document intelligence into LLM pipelines, automating document-heavy workflows and reducing manual processing effort
+
+• Containerized and deployed AI services using Docker and Kubernetes (AKS), enabling cloud-native scalability and high availability
+
+• Collaborated cross-functionally with data, platform, and security teams across Azure and Databricks to deliver enterprise-grade AI solutions
+
+• Reduced repetitive manual work by 70–90% by embedding AI-driven automation into core business workflowsAI Software Engineer focused on building production-grade Generative AI, Agentic AI, and Retrieval-Augmented Generation (RAG) systems that deliver measurable business impact across enterprise workflows. Key Contributions • Architected and deployed enterprise Agentic RAG platforms enabling intelligent search, incident resolution, and decision support over large-scale structured and unstructured data • Designed and implemented end-to-end RAG pipelines (ingestion → chunking → embeddings → hybrid retrieval → re-ranking → inference), significantly improving retrieval relevance and reducing hallucinations • Built multi-agent systems orchestrating retrieval, reasoning, validation, and recommendation workflows to support complex, high-stakes enterprise use cases • Developed secure, scalable AI backend services using Python and FastAPI, implementing OAuth2/JWT, RBAC, and enterprise SSO for high-compliance environments • Established AI evaluation and reliability frameworks, leveraging metrics such as relevance, accuracy, MRR, hit rate, and groundedness to ensure production readiness • Integrated OCR and document intelligence into LLM pipelines, automating document-heavy workflows and reducing manual processing effort • Containerized and deployed AI services using Docker and Kubernetes (AKS), enabling cloud-native scalability and high availability • Collaborated cross-functionally with data, platform, and security teams across Azure and Databricks to deliver enterprise-grade AI solutions • Reduced repetitive manual work by 70–90% by embedding AI-driven automation into core business workflows
+FastAPI, Generative AI and +14 skills
+OPPO logo
+Software Engineer
+Software Engineer
+OPPO · InternshipOPPO · Internship
+Jul 2023 - Nov 2023 · 5 mosJul 2023 to Nov 2023 · 5 mos
+Hyderabad · On-siteHyderabad · On-site
+Contributed to the design and optimization of cloud-ready backend services supporting large-scale Android product and platform workflows.
+
+𝗞𝗲𝘆 𝗖𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀
+
+• Designed and implemented 𝗣𝘆𝘁𝗵𝗼𝗻-based microservices and 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 enabling secure local-to-cloud data synchronization and backup workflows
+
+• Improved system reliability through 𝗦𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝗱 validation, retry strategies, and resilient error handling
+
+• Optimized backend API performance to ensure stable behavior under network variability and high-throughput scenarios
+
+• Collaborated with 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗠𝘂𝗹𝘁𝗶𝗺𝗲𝗱𝗶𝗮 𝗥&𝗗 teams (Audio, Video, Display) supporting Android 14 Beta feature and security updates
+
+• Gained hands-on experience with 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-grade backend systems, API performance tuning, and enterprise engineering practicesContributed to the design and optimization of cloud-ready backend services supporting large-scale Android product and platform workflows. 𝗞𝗲𝘆 𝗖𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻𝘀 • Designed and implemented 𝗣𝘆𝘁𝗵𝗼𝗻-based microservices and 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 enabling secure local-to-cloud data synchronization and backup workflows • Improved system reliability through 𝗦𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝗱 validation, retry strategies, and resilient error handling • Optimized backend API performance to ensure stable behavior under network variability and high-throughput scenarios • Collaborated with 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗠𝘂𝗹𝘁𝗶𝗺𝗲𝗱𝗶𝗮 𝗥&𝗗 teams (Audio, Video, Display) supporting Android 14 Beta feature and security updates • Gained hands-on experience with 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-grade backend systems, API performance tuning, and enterprise engineering practices
+FastAPI, Python and +2 skills

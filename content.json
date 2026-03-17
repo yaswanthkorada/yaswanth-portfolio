@@ -1,0 +1,198 @@
+{
+  "_meta": {
+    "sources": ["YaswanthKorada_AIEngineer.pdf", "Linkedin_profile.txt"],
+    "generated": "2026-03-17",
+    "notes": "Fields marked TODO need manual entry. Parsed from resume PDF + LinkedIn dump."
+  },
+  "name": "Yaswanth Korada",
+  "headline": "AI Engineer @ Kroll | Enterprise GenAI, Agentic AI & Advanced RAG | LLMOps, Multi-Agent Systems | Python, FastAPI, Azure AI, AWS",
+  "location": "Hyderabad, Telangana, India",
+  "email": "yaswanthkorada321@mail.com",
+  "phone": "+91-9160139550",
+  "links": {
+    "github": "https://github.com/TODO_your_github_username",
+    "linkedin": "https://www.linkedin.com/in/TODO_your_linkedin_handle",
+    "resume": "./YaswanthKorada_AIEngineer.pdf"
+  },
+  "openToRoles": [
+    "AI Engineer",
+    "AI Software Engineer",
+    "Generative AI Engineer",
+    "Artificial Intelligence Engineer",
+    "Machine Learning Engineer"
+  ],
+  "about": "AI Engineer at Kroll, building production-grade Generative AI, Agentic AI, and Retrieval-Augmented Generation (RAG) systems for real enterprise use cases — not prototypes. I work at the intersection of GenAI, data engineering, and software engineering, designing and deploying scalable, secure, and reliable AI systems embedded directly into business workflows. My experience spans end-to-end AI development: data ingestion, contextual chunking, hybrid retrieval, multi-agent orchestration, rigorous evaluation, and cloud-native deployment on Azure. I specialize in Agentic RAG systems that power intelligent search, incident resolution, and decision support over large volumes of structured and unstructured data — with a strong emphasis on retrieval quality metrics (MRR, hit rate, groundedness) to reduce hallucinations and ensure production readiness. My work consistently reduces repetitive manual effort by 70–90% by embedding AI-driven automation into core business workflows.",
+  "skills": {
+    "genAI": [
+      "Azure OpenAI (GPT-4o, o1/o3)",
+      "Claude 3.5 Sonnet",
+      "Llama 3/4",
+      "Prompt Engineering & Optimization",
+      "Multi-Modal LLMs"
+    ],
+    "agentic": [
+      "LangGraph",
+      "LangChain",
+      "LlamaIndex",
+      "CrewAI",
+      "MCP (Model Context Protocol)",
+      "Tool Calling & Function Execution"
+    ],
+    "rag": [
+      "Contextual Chunking",
+      "Hybrid Retrieval (Vector + BM25)",
+      "Cross-Encoder Reranking",
+      "GraphRAG",
+      "Azure AI Search",
+      "Pinecone",
+      "ChromaDB"
+    ],
+    "llmops": [
+      "RAGAS",
+      "LLM-as-a-Judge",
+      "LangSmith",
+      "Observability & Tracing",
+      "Guardrails AI",
+      "Evaluation Gates"
+    ],
+    "backend": [
+      "Python",
+      "FastAPI",
+      "REST APIs",
+      "OAuth2 / JWT",
+      "RBAC",
+      "NGINX",
+      "Redis"
+    ],
+    "cloud": [
+      "Azure (AI Studio, AKS, Key Vault, Blob Storage)",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions"
+    ],
+    "data": [
+      "PySpark",
+      "Databricks",
+      "Delta Lake",
+      "ADLS Gen2",
+      "OCR (Azure Document Intelligence)"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Kroll",
+      "role": "AI Engineer",
+      "type": "Full-time",
+      "location": "Hyderabad, India",
+      "start": "Dec 2023",
+      "end": "Present",
+      "duration": "2 yrs 4 mos",
+      "logo": "assets/kroll-logo.svg",
+      "bullets": [
+        "Architected and deployed enterprise Agentic RAG platforms enabling intelligent search, incident resolution, and decision support over large-scale structured and unstructured data.",
+        "Designed and implemented end-to-end RAG pipelines (ingestion → chunking → embeddings → hybrid retrieval → re-ranking → inference), significantly improving retrieval relevance and reducing hallucinations.",
+        "Built multi-agent systems with LangGraph orchestrating retrieval, reasoning, validation, and recommendation workflows for complex, high-stakes enterprise use cases.",
+        "Developed secure, scalable AI backend services using Python and FastAPI, implementing OAuth2/JWT, RBAC, and enterprise SSO for high-compliance environments.",
+        "Established AI evaluation and reliability frameworks using RAGAS and LLM-as-a-Judge, leveraging metrics such as relevance, accuracy, MRR, hit rate, and groundedness.",
+        "Integrated OCR and Azure Document Intelligence into LLM pipelines, automating document-heavy workflows and reducing manual processing effort.",
+        "Containerized and deployed AI services using Docker and Kubernetes (AKS), enabling cloud-native scalability and high availability.",
+        "Collaborated cross-functionally with data, platform, and security teams across Azure and Databricks to deliver enterprise-grade AI solutions.",
+        "Reduced repetitive manual work by 70–90% by embedding AI-driven automation into core business workflows."
+      ],
+      "skills": ["FastAPI", "LangGraph", "Azure OpenAI", "RAG", "Python", "Databricks", "Kubernetes", "LlamaIndex", "OAuth2/JWT", "PySpark", "Azure AI Search", "Docker", "RAGAS"]
+    },
+    {
+      "company": "OPPO",
+      "role": "Software Engineer Intern",
+      "type": "Internship",
+      "location": "Hyderabad, India",
+      "start": "Jul 2023",
+      "end": "Nov 2023",
+      "duration": "5 mos",
+      "logo": "assets/oppo-logo.svg",
+      "bullets": [
+        "Designed and implemented Python-based microservices and REST APIs enabling secure local-to-cloud data synchronization and backup workflows.",
+        "Improved system reliability through structured validation, retry strategies, and resilient error-handling patterns.",
+        "Optimized backend API performance to ensure stable behavior under network variability and high-throughput scenarios.",
+        "Collaborated with Android Multimedia R&D teams (Audio, Video, Display) supporting Android 14 Beta feature and security updates.",
+        "Gained hands-on experience with production-grade backend systems, API performance tuning, and enterprise engineering practices."
+      ],
+      "skills": ["FastAPI", "Python", "REST APIs", "Microservices"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ResolveAI",
+      "tagline": "Multi-Agent Enterprise RAG for Incident Intelligence",
+      "summary": "An enterprise-grade multi-agent RAG platform designed for incident recommendation and knowledge-base search. Orchestrated with LangGraph, it routes queries across specialized agents for retrieval, reasoning, and validation — cutting average incident resolution time significantly.",
+      "highlights": [
+        "Multi-agent orchestration via LangGraph with specialized retrieval, reasoning, and validation agents.",
+        "Hybrid retrieval (dense + sparse/BM25) with cross-encoder re-ranking for high-precision incident recommendations.",
+        "RBAC and OAuth2/JWT security ensuring data isolation across teams and tenants.",
+        "Integrated RAGAS evaluation gates and LLM-as-a-Judge to guarantee retrieval quality before production.",
+        "Full observability via LangSmith tracing; Azure Key Vault for secrets management.",
+        "Reduced average incident resolution time by several hours per week per team."
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "tags": ["RAG", "LangGraph", "FastAPI", "Azure", "Multi-Agent", "RAGAS", "Kubernetes"]
+    },
+    {
+      "name": "DocGenius",
+      "tagline": "Production RAG Document Assistant",
+      "summary": "A production-ready intelligent document assistant supporting multi-format ingestion (PDF, DOCX, images, scanned docs), voice queries, and selective retrieval. Delivers sub-second responses with high groundedness scores.",
+      "highlights": [
+        "Multi-format document ingestion — PDF, DOCX, images, scanned docs via OCR.",
+        "Selective retrieval using contextual chunking and hybrid semantic + keyword search.",
+        "Voice query support for hands-free interaction.",
+        "Sub-second P95 latency on typical document corpora.",
+        "Dual vector store support: Pinecone (cloud) and ChromaDB (local).",
+        "Deployed on Streamlit Cloud with a live public demo."
+      ],
+      "links": {
+        "demo": "https://docgenius-ai.streamlit.app/",
+        "code": ""
+      },
+      "tags": ["RAG", "LLM", "ChromaDB", "Pinecone", "Streamlit", "OCR", "Python"]
+    },
+    {
+      "name": "Data Engineering Pipeline",
+      "tagline": "Scalable PySpark / Databricks / Delta Lake ETL",
+      "summary": "An end-to-end data engineering pipeline on Azure Databricks using PySpark and Delta Lake, processing large-scale structured and unstructured data for downstream AI and analytics workloads.",
+      "highlights": [
+        "Built scalable ETL pipelines with PySpark on Azure Databricks ingesting from ADLS Gen2.",
+        "Delta Lake architecture with ACID transactions, schema enforcement, and time-travel queries.",
+        "~70% reduction in manual data preparation time through automated transformation and validation.",
+        "Integrated with downstream RAG and ML pipelines for real-time feature and document serving.",
+        "Optimized Spark jobs with partition pruning and broadcast joins for cost efficiency."
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "tags": ["PySpark", "Databricks", "Delta Lake", "Azure", "ETL", "ADLS Gen2"]
+    }
+  ],
+  "stats": {
+    "followers": 14354,
+    "connections": "500+",
+    "profileViews7d": 1194,
+    "postImpressions7d": 7398,
+    "searchAppearances7d": 128
+  },
+  "education": [
+    {
+      "institution": "TODO_university_name",
+      "degree": "TODO_degree_title",
+      "field": "TODO_field_of_study",
+      "start": "TODO_start_year",
+      "end": "TODO_end_year"
+    }
+  ],
+  "certifications": [
+    "TODO_add_certifications_from_resume"
+  ]
+}

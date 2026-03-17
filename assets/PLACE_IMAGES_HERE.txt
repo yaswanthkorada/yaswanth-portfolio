@@ -1,0 +1,7 @@
+Place your images here:
+
+  profile.jpg  — Your profile photo (square, ≥ 400×400 px, JPEG or WebP)
+  hero-bg.jpg  — Hero section background (1920×1080 px recommended, JPEG)
+
+These are referenced directly by index.html and styles.css.
+No code changes needed after adding these files.

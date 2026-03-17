@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light" />
+
+  <!-- Primary SEO -->
+  <title>Yaswanth Korada — AI Engineer | Enterprise GenAI & Agentic RAG</title>
+  <meta name="description"
+    content="AI Engineer at Kroll specializing in Enterprise GenAI, Agentic RAG, Multi-Agent Systems, LLMOps, Python, FastAPI, and Azure AI. Open to AI Engineer and Machine Learning Engineer roles." />
+  <meta name="keywords"
+    content="Yaswanth Korada, AI Engineer, Generative AI, Agentic RAG, LLMOps, LangGraph, FastAPI, Azure OpenAI, Machine Learning Engineer" />
+  <meta name="author" content="Yaswanth Korada" />
+  <link rel="canonical" href="https://TODO_your_github_username.github.io/TODO_repo_name/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Yaswanth Korada — AI Engineer | Enterprise GenAI & Agentic RAG" />
+  <meta property="og:description"
+    content="Building production-grade Generative AI, Agentic AI, and RAG systems for enterprise. AI Engineer at Kroll." />
+  <meta property="og:image" content="./assets/profile.jpg" />
+  <meta property="og:url" content="https://TODO_your_github_username.github.io/TODO_repo_name/" />
+  <meta property="og:site_name" content="Yaswanth Korada Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Yaswanth Korada — AI Engineer" />
+  <meta name="twitter:description" content="Enterprise GenAI, Agentic RAG & LLMOps. AI Engineer at Kroll." />
+  <meta name="twitter:image" content="./assets/profile.jpg" />
+
+  <!-- Theme color -->
+  <meta name="theme-color" content="#0B1220" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#F7F9FC" media="(prefers-color-scheme: light)" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./docs/favicon.svg" />
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="./assets/hero-bg.jpg" as="image" fetchpriority="high" />
+  <link rel="preload" href="./assets/profile.jpg" as="image" fetchpriority="high" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- JSON-LD Structured Data (schema.org Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yaswanth Korada",
+    "jobTitle": "AI Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Kroll"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/TODO_your_linkedin_handle",
+      "https://github.com/TODO_your_github_username"
+    ],
+    "description": "AI Engineer specialized in Enterprise GenAI, Agentic RAG, Multi-Agent Systems, and LLMOps."
+  }
+  </script>
+</head>
+
+<body>
+  <!-- ============================================================
+       STICKY NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="site-header" role="banner">
+    <nav class="nav-inner" aria-label="Primary navigation">
+      <!-- Logo / Name -->
+      <a class="nav-logo" href="#hero" aria-label="Yaswanth Korada — Back to top">
+        <span class="logo-monogram" aria-hidden="true">YK</span>
+        <span class="logo-text">Yaswanth Korada</span>
+      </a>
+
+      <!-- Desktop nav links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Right controls -->
+      <div class="nav-actions">
+        <a class="btn btn--outline btn--sm" href="./YaswanthKorada_AIEngineer.pdf" download
+          aria-label="Download Résumé PDF">
+          <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          Résumé
+        </a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme" title="Toggle theme">
+          <!-- Sun icon (shown in dark mode) -->
+          <svg class="icon-sun" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <!-- Moon icon (shown in light mode) -->
+          <svg class="icon-moon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+        <!-- Mobile hamburger -->
+        <button class="nav-hamburger" id="navHamburger" aria-label="Open navigation menu" aria-expanded="false"
+          aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation" hidden>
+      <ul role="list">
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#experience" class="mobile-link">Experience</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li>
+          <a class="btn btn--primary btn--sm mobile-resume" href="./YaswanthKorada_AIEngineer.pdf" download>
+            Download Résumé
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================================================
+         1. HERO SECTION
+    ============================================================ -->
+    <section class="hero" id="hero" aria-label="Hero introduction">
+      <!-- Background image with gradient overlay — rendered via CSS using hero-bg.jpg -->
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="hero__content container">
+        <!-- Profile image -->
+        <div class="hero__avatar-wrap">
+          <div class="hero__avatar-ring" aria-hidden="true"></div>
+          <img class="hero__avatar" src="./assets/profile.jpg" alt="Yaswanth Korada — AI Engineer" width="160"
+            height="160" fetchpriority="high" />
+          <!-- Online status dot -->
+          <span class="hero__status-dot" aria-label="Open to work"></span>
+        </div>
+
+        <!-- Text content -->
+        <div class="hero__text">
+          <!-- Name -->
+          <h1 class="hero__name" id="hero-name">Yaswanth Korada</h1>
+
+          <!-- Headline -->
+          <p class="hero__headline">
+            AI Engineer <span class="accent-text">@ Kroll</span> &nbsp;|&nbsp;
+            Enterprise GenAI, Agentic&nbsp;AI &amp; Advanced&nbsp;RAG &nbsp;|&nbsp;
+            LLMOps · Multi-Agent Systems &nbsp;|&nbsp;
+            Python · FastAPI · Azure&nbsp;AI · AWS
+          </p>
+
+          <!-- Location row -->
+          <p class="hero__location">
+            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Hyderabad, Telangana, India
+          </p>
+
+          <!-- Social icon links — URLs populated by script.js from content.json -->
+          <div class="hero__socials" aria-label="Social links">
+            <a class="social-icon" id="heroEmailLink" href="#" aria-label="Send email">
+              <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </a>
+            <a class="social-icon" id="heroGithubLink" href="#" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub profile">
+              <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+            </a>
+            <a class="social-icon" id="heroLinkedinLink" href="#" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn profile">
+              <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- CTA buttons -->
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#projects">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" rx="1" /><rect x="14" y="3" width="7" height="7" rx="1" />
+                <rect x="14" y="14" width="7" height="7" rx="1" /><rect x="3" y="14" width="7" height="7" rx="1" />
+              </svg>
+              View My Work
+            </a>
+            <a class="btn btn--secondary" href="./YaswanthKorada_AIEngineer.pdf" download
+              aria-label="Download Yaswanth Korada Résumé PDF">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download Résumé
+            </a>
+            <a class="btn btn--outline" href="#contact">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         2. ABOUT SECTION
+    ============================================================ -->
+    <section class="section section--about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title" id="about-heading">Building AI That Works in Production</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__copy reveal">
+            <p id="aboutText" class="about__para">
+              <!-- Populated by script.js from content.json -->
+            </p>
+
+            <!-- Key outcomes metrics row -->
+            <div class="about__metrics" role="list" aria-label="Key outcomes">
+              <div class="metric-card reveal" role="listitem">
+                <span class="metric-card__number">70–90%</span>
+                <span class="metric-card__label">Reduction in manual work</span>
+              </div>
+              <div class="metric-card reveal" role="listitem">
+                <span class="metric-card__number">↓ Hallucinations</span>
+                <span class="metric-card__label">Via hybrid retrieval + reranking</span>
+              </div>
+              <div class="metric-card reveal" role="listitem">
+                <span class="metric-card__number">&lt; 1s</span>
+                <span class="metric-card__label">P95 response latency</span>
+              </div>
+              <div class="metric-card reveal" role="listitem">
+                <span class="metric-card__number">2+ yrs</span>
+                <span class="metric-card__label">Enterprise GenAI in production</span>
+              </div>
+            </div>
+
+            <!-- What I do best list -->
+            <ul class="about__strengths" aria-label="Core strengths">
+              <li>Enterprise GenAI &amp; Agentic RAG architectures</li>
+              <li>Multi-agent systems &amp; retrieval optimization</li>
+              <li>Production-grade AI APIs &amp; cloud deployment</li>
+              <li>AI evaluation, reliability &amp; performance tuning</li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. EXPERIENCE SECTION
+    ============================================================ -->
+    <section class="section section--experience" id="experience" aria-labelledby="exp-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Experience</span>
+          <h2 class="section-title" id="exp-heading">Where I've Shipped AI</h2>
+        </div>
+
+        <!-- Timeline — populated by script.js -->
+        <ol class="timeline" id="experienceTimeline" aria-label="Work experience timeline">
+          <!-- JS-rendered timeline items injected here -->
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. PROJECTS SECTION
+    ============================================================ -->
+    <section class="section section--projects" id="projects" aria-labelledby="proj-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Projects</span>
+          <h2 class="section-title" id="proj-heading">Things I've Built</h2>
+          <p class="section-subtitle">Production-grade AI systems, not just demos.</p>
+        </div>
+
+        <!-- Project cards — populated by script.js -->
+        <div class="projects-grid" id="projectsGrid" role="list" aria-label="Featured projects">
+          <!-- JS-rendered project cards injected here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. SKILLS SECTION
+    ============================================================ -->
+    <section class="section section--skills" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title" id="skills-heading">Technology Stack</h2>
+          <p class="section-subtitle">My production AI toolkit — grouped by domain.</p>
+        </div>
+
+        <!-- Skill groups — populated by script.js -->
+        <div class="skills-grid" id="skillsGrid" aria-label="Technology skills by category">
+          <!-- JS-rendered skill groups injected here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. CONTACT SECTION
+    ============================================================ -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Contact</span>
+          <h2 class="section-title" id="contact-heading">Let's Talk AI</h2>
+          <p class="section-subtitle">Open to enterprise AI consulting, collaboration, and new roles.</p>
+        </div>
+
+        <div class="contact__grid">
+          <!-- Contact form -->
+          <div class="contact__form-wrap reveal">
+            <form id="contactForm" class="contact-form" novalidate aria-label="Send a message">
+              <div class="form-group">
+                <label class="form-label" for="fieldName">Your Name <span aria-hidden="true">*</span></label>
+                <input class="form-control" type="text" id="fieldName" name="name" required
+                  autocomplete="name" placeholder="Jane Smith" aria-required="true" />
+                <span class="form-error" id="errName" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fieldEmail">Email Address <span aria-hidden="true">*</span></label>
+                <input class="form-control" type="email" id="fieldEmail" name="email" required
+                  autocomplete="email" placeholder="jane@company.com" aria-required="true" />
+                <span class="form-error" id="errEmail" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fieldSubject">Subject</label>
+                <input class="form-control" type="text" id="fieldSubject" name="subject"
+                  placeholder="Enterprise AI Collaboration" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fieldMessage">Message <span aria-hidden="true">*</span></label>
+                <textarea class="form-control form-textarea" id="fieldMessage" name="message" rows="5" required
+                  placeholder="Tell me about your project or opportunity…" aria-required="true"></textarea>
+                <span class="form-error" id="errMessage" role="alert" aria-live="polite"></span>
+              </div>
+              <button class="btn btn--primary btn--full" type="submit">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+                Send Message
+              </button>
+              <p class="form-note">This opens your default email client with a pre-filled message.</p>
+            </form>
+          </div>
+
+          <!-- Direct links panel -->
+          <aside class="contact__links reveal" aria-label="Direct contact links">
+            <h3 class="contact__links-title">Or reach me directly</h3>
+            <ul class="contact-links-list" role="list">
+              <li>
+                <a class="contact-link-item" id="contactEmailLink" href="#">
+                  <span class="contact-link-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                      <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                  </span>
+                  <span class="contact-link-text">
+                    <strong>Email</strong>
+                    <small id="contactEmailDisplay">TODO_your_email@example.com</small>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="contact-link-item" id="contactGithubLink" href="#" target="_blank"
+                  rel="noopener noreferrer">
+                  <span class="contact-link-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                  </span>
+                  <span class="contact-link-text">
+                    <strong>GitHub</strong>
+                    <small id="contactGithubDisplay">github.com/TODO_username</small>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="contact-link-item" id="contactLinkedinLink" href="#" target="_blank"
+                  rel="noopener noreferrer">
+                  <span class="contact-link-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                  </span>
+                  <span class="contact-link-text">
+                    <strong>LinkedIn</strong>
+                    <small id="contactLinkedinDisplay">linkedin.com/in/TODO_handle</small>
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+            <!-- Download résumé CTA -->
+            <a class="btn btn--primary btn--full contact__resume-btn" href="./YaswanthKorada_AIEngineer.pdf"
+              download aria-label="Download Résumé PDF — Yaswanth Korada">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download Full Résumé
+            </a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        &copy; <span id="footerYear">2026</span> Yaswanth Korada. All rights reserved.
+      </p>
+      <p class="footer__credit">
+        Built with HTML · CSS · JS &mdash; deployed on
+        <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+      </p>
+      <button class="theme-toggle theme-toggle--footer" id="themeToggleFooter"
+        aria-label="Toggle light/dark theme">
+        <svg class="icon-sun" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5" /><line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" /><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" /><line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" /><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="icon-moon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+        <span class="theme-toggle__label">Toggle theme</span>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Main JS (deferred) -->
+  <script src="script.js" defer></script>
+</body>
+
+</html>
