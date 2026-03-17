@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderTimeline(data.experience);
     renderProjects(data.projects);
     renderSkills(data.skills);
+    applyResumeVisibility(data.resumeAvailable);
   }
 
   /* ── 2. Theme toggle ── */
@@ -80,6 +81,18 @@ document.addEventListener('DOMContentLoaded', async () => {
    ------------------------------------------------------------ */
 
 /** Populate all dynamic href / text from content.json links */
+/** Show or hide all résumé download buttons based on the flag in content.json */
+function applyResumeVisibility(available) {
+  // Selects every element that has a [download] attribute (all résumé buttons)
+  document.querySelectorAll('[download]').forEach(el => {
+    if (available === false) {
+      el.style.display = 'none';          // hide the button completely
+    } else {
+      el.style.display = '';              // restore default display
+    }
+  });
+}
+
 function populateLinks(data) {
   const email    = data.email    || null;
   const github   = data.links?.github || '#';
