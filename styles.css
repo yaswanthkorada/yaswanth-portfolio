@@ -632,9 +632,12 @@ p {
 /* Metrics row */
 .about__metrics {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--sp-4);
   margin-bottom: var(--sp-8);
+}
+@media (min-width: 640px) {
+  .about__metrics { grid-template-columns: repeat(4, 1fr); }
 }
 
 .metric-card {
@@ -655,13 +658,15 @@ p {
 }
 
 .metric-card__number {
-  font-size: clamp(1.3rem, 2vw + 0.5rem, 1.7rem);
+  font-size: clamp(1.1rem, 1.8vw + 0.4rem, 1.5rem);
   font-weight: 800;
   background: var(--grad-accent);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 1;
+  line-height: 1.25;
+  word-break: break-word;
+  white-space: normal;
 }
 .metric-card__label {
   font-size: 0.8rem;
