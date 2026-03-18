@@ -619,6 +619,7 @@ p {
   grid-template-columns: 1fr;
   gap: var(--sp-10);
   max-width: 820px;
+  margin-inline: auto;
 }
 
 .about__para {
@@ -626,7 +627,9 @@ p {
   line-height: 1.8;
   color: var(--text-muted);
   max-width: 70ch;
+  margin-inline: auto;
   margin-bottom: var(--sp-8);
+  text-align: center;
 }
 
 /* Metrics row */
@@ -679,6 +682,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: var(--sp-2);
+  align-items: center;
 }
 .about__strengths li {
   display: flex;
